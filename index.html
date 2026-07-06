@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+         </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"  />
+    <style>
+        .open{
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="max-w-screen h-screen w-full bg-transparent">
+        <div class="max-w-sceen h-auto w-full bg-[#101828]">
+        <div class="max-w-[1280px] h-auto w-full bg-[#101828] m-auto">
+            <header class="w-full bg-[#101828] text-white flex items-center relative">
+            <div class="flex h-15 md:h-15 items-center space-x-2">
+                <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse m-2"></span>
+                <span class=" text-lg tracking-wide text-white font-bold">Kanak Tripathi</span>
+            </div>
+            <nav class="flex h-15 items-center space-x-8 text-xs font-medium absolute right-0 m-2 hidden lg:flex">
+            <a href="index.html" class="text-lg text-gray-400 hover:text-white hover:underline transition-colors">Home</a>
+            <a href="aboutme.html" class="text-gray-400 text-lg hover:text-white hover:underline transition-colors">About</a>
+            <a href="skills.html" class="text-gray-400 text-lg hover:text-white hover:underline transition-colors">Skills</a>
+            <a href="contact.html" class="text-gray-400 text-lg hover:text-white hover:underlinetransition-colors">Contact</a>
+            <button onclick="document.location='https://resume-260526-225239.tiiny.site'" class="h-10 w-25 bg-indigo-500 rounded-lg font-bold text-lg cursor-pointer">Resume<span><i class="text-white fa-solid fa-arrow-down"></i></span></button>
+            </nav>
+            <button onclick="menu()" class="bg-black absolute right-0 text-white flex lg:hidden m-2"><i class="fa-solid fa-bars"></i></button>
+         
+              <div class="h-auto w-full text-white flex flex-col mt-0 bg-[#101828] nav2 hidden">
+        <li class="font-semibold h-10 w-full flex items-center px-7 hover:bg-gray-500"><a href="index.html">Home</a></li>
+        <li class="font-semibold h-10 w-full flex items-center px-7 hover:bg-gray-500" ><a href="aboutme.html">About</a></li>
+        <li class="font-semibold h-10 w-full flex items-center px-7 hover:bg-gray-500"><a href="skills.html">Skills</a></li>
+        <li class="font-semibold h-10 w-full flex items-center px-7 hover:bg-gray-500"><a href="contact.html">Contact</a></li>
+    </div>
+       </header>
+    </div>
+     </div>
+     <div class="max-w-screen h-auto w-full bg-slate-950">
+        <div class="max-w-[1280px] h-auto lg:h-150 w-full bg-slate-950 m-auto relative">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="h-auto w-auto bg-transparent mt-20 text-center lg:text-left">
+                    <h1 class="text-7xl text-white font-bold">Hi,I'm Kanak-<br>
+                    I build things for<br> the <span class=" bg-gradient-to-r from-white to-purple-600 bg-clip-text text-transparent">web.</span></h1>
+                    <p class="text-gray-500 mt-5 mb-5"> > Final-year Computer Science Engineering student</p>
+                    <p class="text-white mt-5 mb-5">I turn ideas into clear, responsive websites.Currently<br>sharpening my skills in front-end development and looking<br>for my first hands-on internship.</p>
+                    <div class="flex flex-row gap-10 hidden lg:inline-block">
+                        <button onclick="document.location='skills.html'" class="h-15 w-50 bg-white rounded-lg text-black cursor-pointer">View my skills</button>
+                        <button onclick="document.location='contact.html'"  class="h-15 w-50 bg-slate-950 rounded-lg text-white border-2 border-gray-500 cursor-pointer">Get in touch</button>
+                    </div>
+                </div>
+                <div class="h-auto w-auto bg-pink flex items-center justify-center relative">
+                <div class="h-100 w-100 bg-white/30 rounded-lg border border-white/20 shadow-lg backdrop-blur-sm flex items-center justify-center text-5xl lg:absolute lg:right-0">
+                <p class="text-7xl font-bold bg-gradient-to-r from-white to-purple-600 bg-clip-text text-transparent">KT</p>
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+      <div class="max-w-screen h-screen w-full bg-white text-center lg:text-left">
+        <div class="max-w-[1280px] h-screen w-full bg-white m-auto">
+            <div class=" text-slate-950  mt-10">
+                <h4 class="text-sm text-slate-950">// welcome</h4>
+                <h1 class="text-5xl font-bold">Welcome to my corner of the web</h1><br>
+                <p class="text-slate-950">This site is my digital resume --a quick way to know who I am,what<br>I can do,and how to reach me.</p>
+            </div>
+            <div class="grid grid-cols-1 gap-x-6 mt-10 lg:grid-cols-2">
+                <div class="h-50 w-auto bg-white rounded-lg shadow-lg pt-5 m-2 lg:m-0">
+                <i class="text-slate-950 fa-solid fa-right-long m-3"></i><span class="font-bold text-slate-950 text-2xl">About me</span>
+                <p class="text-slate-950 m-4">A final-year CS student focused on front-end development and eager to learn on a real team.</p>
+                <button onclick="document.location='http://127.0.0.1:5500/aboutme.html'" class="bg-slate-950 text-white m-4 rounded-lg h-10 w-25 cursor-pointer">Read more</button>
+                </div>
+                <div class="h-50 w-auto bg-white rounded-lg shadow-lg pt-5"><i class="text-slate-950 fa-solid fa-right-long m-3"></i><span class="font-bold text-slate-950 text-2xl">My skills</span>
+                <p class="text-slate-950 m-4">Languages, web technologies,tools and the core CS<br>concepts I've learned so far.</p>
+                <button  onclick="document.location='http://127.0.0.1:5500/skills.html'" class="bg-slate-950 text-white m-4 rounded-lg h-10 w-25 cursor-pointer">See skills</button></div>
+            </div>
+        </div>
+      </div>
+      <div class="fixed bottom-0 left-0 z-50 w-full bg-white border-t border-gray-200 p-5 shadow-lg m-auto">
+        <div class="max-w-[1280px] w-full h-10 bg-transparent m-auto relative">
+       <div class="grid grid-cols-2">
+        <div class="h-5 w-auto bg-white ml">
+            <p class="text-slate-950">© 2026 kanak tripathi,Built with HTML & tailwind CSS</p>
+        </div>
+        <div class="h-5 w-auto bg-white text-slate-950 absolute right-0">
+            <a  href="https://github.com/tripathikanak789-eng/portfolioWebsite.git">GitHub</a>&nbsp&nbsp&nbsp
+            <a href="https://www.linkedin.com/feed/">Linkedin</a>&nbsp&nbsp&nbsp
+            <a href="mailto:tripathikanak789@gmail.com">Email</a>&nbsp&nbsp&nbsp
+        </div>
+      </div>
+      </div>
+    </div>
+    <script>
+        let nav=document.querySelector(".nav2");
+        function menu(){
+            nav.classList.toggle("open");
+        }
+    </script>
+</body>
+</html>
